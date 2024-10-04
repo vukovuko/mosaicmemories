@@ -98,7 +98,7 @@ Please process the image accordingly and provide the transformed image along wit
 
   if (isTransformed && transformedData) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen px-4 md:px-8">
+      <div className="flex flex-col items-center justify-center h-[calc(100vh_-_4rem)] px-4 md:px-8">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Vaša Transformisana Slika
         </h1>
@@ -125,7 +125,7 @@ Please process the image accordingly and provide the transformed image along wit
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 md:px-8">
+    <div className="flex flex-col items-center justify-center h-[calc(100vh_-_4rem)] px-4 md:px-8">
       <h1 className="text-3xl font-bold mb-4 text-center">Otpremite Svoju Sliku</h1>
 
       {isLoading ? (
